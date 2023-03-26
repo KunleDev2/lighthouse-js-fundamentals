@@ -1,4 +1,6 @@
 const temperature = -3;
+const isCitizen = true;
+const age = 26;
 
 if (temperature < 0) {
   console.log("Make sure you pick out a scarf!");
@@ -9,3 +11,7 @@ if (temperature < 0) {
 }
 
 console.log("Now you're ready to go outside!");
+
+if (isCitizen && age > 18) {
+  console.log("You are eligible to vote.");
+}
